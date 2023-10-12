@@ -84,6 +84,22 @@ Type in "domain admins" and click check names
 <img src="https://cdn.discordapp.com/attachments/1149514851564138576/1162123136280559727/Capture.PNG?ex=653aca82&is=65285582&hm=e2fc7add2be9642f058e2ad750e91d9055f632c3d2a61b17eaa43174da9a905b&" height="40%" width="60%" alt="Disk Sanitization Steps"/>
 <img src="https://cdn.discordapp.com/attachments/1149514851564138576/1162124060331872377/Capture.PNG?ex=653acb5f&is=6528565f&hm=60174cb31ac627b191054b9d71f68242df8088aac3e580a8bfda673474de0789&" height="40%" width="60%" alt="Disk Sanitization Steps"/>
 <p>
+Set the virtual machines DNS settings to the domain controllers private IP address
+</p>
+Go to the azure portal and click on the domain controller to find the domain controllers NIC private IP
+<img src="https://cdn.discordapp.com/attachments/1149514851564138576/1162136206612643901/Capture.PNG?ex=653ad6af&is=652861af&hm=16788445009dc0c8cd0e0c102413c427f05a61f103de455e4ec91827d92916fc&" height="40%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://cdn.discordapp.com/attachments/1149514851564138576/1162133363335905421/Capture.PNG?ex=653ad409&is=65285f09&hm=f89c5ac7edad62c5a4598e5482e1eac48bb41df67ebc9fd4f95d935d6a7df33c&" height="40%" width="60%" alt="Disk Sanitization Steps"/>
+Go to the Virtual Machine and set the private IP address to the DCs private IP address
+<img src="https://cdn.discordapp.com/attachments/1149514851564138576/1162131469368565760/Capture.PNG?ex=653ad245&is=65285d45&hm=4ea06f31a650e71541b58c2fe1cd01a91018a6f37c731a993b4fbf0a97b7db09&" height="40%" width="60%" alt="Disk Sanitization Steps"/>
+Click on networking and then click on the network interface
+<img src="https://cdn.discordapp.com/attachments/1149514851564138576/1162131830414245888/Capture.PNG?ex=653ad29b&is=65285d9b&hm=9657dee736886c629bd59998cc68ef3b7990d2cf7d2ba2af365abcb49688a7d0&" height="40%" width="60%" alt="Disk Sanitization Steps"/>
+Click on custom and enter the DCs private IP address
+<img src="https://cdn.discordapp.com/attachments/1149514851564138576/1162134986065969212/Capture.PNG?ex=653ad58c&is=6528608c&hm=bb328865642eac6e27f50ead39446fb70e262375aea5adf0bcbf50a1f5494bab&" height="40%" width="60%" alt="Disk Sanitization Steps"/>"
+
+<img src="https://cdn.discordapp.com/attachments/1149514851564138576/1162128413612576878/Capture.PNG?ex=653acf6d&is=65285a6d&hm=61803e9ce0421f17db99a3815a49453e95c8199051154f287d6d225e97fbb37e&" height="60%" width="40%" alt="Disk Sanitization Steps"/>
+
+<img src="https://cdn.discordapp.com/attachments/1149514851564138576/1162125736346402917/Capture.PNG?ex=653accee&is=652857ee&hm=2b015bcf717d52cf11b672701bd620636fb0a99f8a4be629a50b5eccc55e4ec3&" height="40%" width="60%" alt="Disk Sanitization Steps"/>
 Log out of the domain controller and log back in as the admin you created
+<img src="https://cdn.discordapp.com/attachments/1149514851564138576/1162125736346402917/Capture.PNG?ex=653accee&is=652857ee&hm=2b015bcf717d52cf11b672701bd620636fb0a99f8a4be629a50b5eccc55e4ec3&" height="40%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
